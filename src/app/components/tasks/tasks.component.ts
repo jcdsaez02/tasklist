@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { TASKS } from 'src/app/mock-tasks';
 import { Task } from 'src/app/Tasks';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
+
 @Component({
   selector: 'app-tasks',
   templateUrl: './tasks.component.html',
@@ -9,6 +9,6 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 })
 export class TasksComponent {
   tasks: Task[]=TASKS;
-  faTimes = faTimes;
+  
 
 }
